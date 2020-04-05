@@ -26,6 +26,20 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+.keywords{
+    color:#cccccc;font-size:1px;
+}
+.cont-citation{
+    display: flex;
+    justify-content: center;
+}
+.citation{
+    font-size: 15px;
+    width: 65%;
+}
+.réal{
+    font-size: 20px;
+}
 
 .bloc {
     width: 100%;
@@ -682,7 +696,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -775,7 +789,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;   
 }
 
 .btn-atomic-tangerine {
