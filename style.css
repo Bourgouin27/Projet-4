@@ -548,6 +548,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 a[data-lightbox]:hover::before {
@@ -836,7 +838,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
